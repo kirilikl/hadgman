@@ -3,7 +3,7 @@ let keyboard = document.querySelector(".keyboard")
 let game = document.querySelector(".game")
 let word = document.querySelector(".word")
 
-let currentWord = "ПОСОСЕШЬОК"
+let currentWord = "привет"
 
 function checkLetter(button, clickedLetter) {
 	if (currenWord.includes(clickedLetter)) {
